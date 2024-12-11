@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/c35572497d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="libreriacss/animate.css" />
+    <link rel="stylesheet" href="libreriacss/fancybox.css" />
+    <link rel="stylesheet" href="libreriacss/carrousel.css" />
+    <!-- LINK JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="libreriajs/responsiveslides.min.js"></script>
+    <script src="libreriajs/wow.min.js"></script>
+    <script src="libreriajs/fancybox.js"></script>
+    <title>Proyecto Desarrollo - CORPIX</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="ancho cabecera">
+      <div class="menu-bar">
+        <figure>
+          <img src="imagenes/logo.png" alt="" />
+        </figure>
+        <div id="icon-bar">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <nav class="nav-bar" id="box-menu">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICE</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="telefono">
+        <i class="fa-solid fa-phone"></i>
+        <p>+1 234 567 890</p>
+      </div>
+    </header>
+    <!-- FIN DEL HEADER -->
+
+    <!-- SECCION - SLIDE DE IMAGENES -->
+
+    <section class="callbacks_container">
+      <ul class="rslides" id="slider">
+        <li><img src="imagenes/slide1.png" alt="" /></li>
+        <li><img src="imagenes/slide2.jpeg" alt="" /></li>
+        <li><img src="imagenes/slide3.jpeg" alt="" /></li>
+      </ul>
+      <article class="art-position">
+        <h1>INNOVATING FOR A BRIGHTER FUTURE</h1>
+        <p>
+          Transforming the busi ness landscape throug innovation. Join usi
+          creating a better world for tomorrow.
+        </p>
+
+        <div class="btns animate__animated animate__pulse animate__infinite">
+          <a href="#" id="btn_modal">Contact Us</a>
+        </div>
+      </article>
+    </section>
+    <section class="modal_padre" id="cont_modal">
+      <article class="modal">
+        <div class="cerrar" id="cerrar_modal">
+          <i class="fa-solid fa-x"></i>
+        </div>
+        <h1>CONTACT US</h1>
+        <p>
+          If you have any questions concerning Our services. please fill Out the
+          contact form
+        </p>
+        <form class="forms_modal" id="forms_modal">
+          <input type="text" placeholder="Name*" id="name" required />
+          <input type="text" placeholder="Email*" id="mail" required />
+          <textarea placeholder="Message*" id="message" required></textarea>
+          <button class="btnmodal" type="submit">SUBMIT</button>
+        </form>
+      </article>
+    </section>
+
+    <!-- FIN SECCION - SLIDE DE IMAGENES -->
+
+    <!-- SECCION - DIVICION -->
+
+    <section class="sec-divcion">
+      <div class="ancho art-imgs">
+        <figure><img src="imagenes/logo-1.png" alt="" /></figure>
+        <figure><img src="imagenes/logo-2.png" alt="" /></figure>
+        <figure><img src="imagenes/logo-3.png" alt="" /></figure>
+        <figure><img src="imagenes/logo-4.png" alt="" /></figure>
+        <figure><img src="imagenes/logo-5.png" alt="" /></figure>
+      </div>
+    </section>
+
+    <!-- FIN SECCION - DIVICION -->
+
+    <!-- SECCION - PROYECTOS -->
+    <article class="art-encabezado ancho">
+      <h1>UNVEILING OUR JOURNEY AND PURPOSE</h1>
+      <p>
+        How our unwavering commitment and passion drive us to empower <br />
+        businesses and make a lasting impact in the corporate landscape.
+      </p>
+    </article>
+    <section class="proyectos ancho">
+      <article class="art-exp">
+        <div class="cont1">
+          <div class="card-imagen wow animate__animated animate__fadeInDown">
+            <figure>
+              <img class="borderup" src="imagenes/img-1.png" alt="" />
+            </figure>
+          </div>
+          <br />
+          <div
+            class="card-text colorgris wow animate__animated animate__fadeInUp"
+          >
+            <h1>2K</h1>
+            <p>Complete Project</p>
+          </div>
+        </div>
+        <div class="cont2">
+          <div
+            class="card-text colorazul wow animate__animated animate__fadeInDown"
+          >
+            <h1>15+</h1>
+            <p>Years Experience</p>
+          </div>
+          <br />
+          <div class="card-imagen wow animate__animated animate__fadeInUp">
+            <figure>
+              <img class="borderdown" src="imagenes/img-2.png" alt="" />
+            </figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="artpro-info wow animate__animated animate__fadeInUpBig">
+        <h1>Empowering Business Excellence Ever where</h1>
+        <ul class="tab_select">
+          <li><a href="#tab0">History</a></li>
+          <li><a href="#tab1">Mission</a></li>
+          <li><a href="#tab2">Vision</a></li>
+        </ul>
+        <div class="tab_content tab_all" id="tab0">
+          <p>
+            At Vision, we have a long and proud history of empowering business
+            excellence everywhere. Founded in 2008, our company has been
+            dedicated to driving innovation and progress in the business world
+            from the very beginning. Over the years, we have developed a
+            reputation for excellence, constantly pushing the boundaries of
+            what's cutting-edge solutions that drive real results. Today, we
+            continue this legacy, working with success in every corner of the
+            globe.
+          </p>
+        </div>
+
+        <div class="tab_content tab_all" id="tab1">
+          <p>
+            Over the years, we have developed a reputation for excellence,
+            constantly pushing the boundaries of what's cutting-edge solutions
+            that drive real results. Today, we continue this legacy, working
+            with success in every corner of the globe.At Vision, we have a long
+            and proud history of empowering business excellence everywhere.
+            Founded in 2008, our company has been dedicated to driving
+            innovation and progress in the business world from the very
+            beginning.
+          </p>
+        </div>
+        <div class="tab_content tab_all video-card" id="tab2">
+          <iframe
+            src="https://www.youtube.com/embed/lGr1iKyu38E?si=ABBtI-ywi8R3pPzq"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="clientes">
+          <div class="card-text colorgris">
+            <h1>8K</h1>
+            <p>Happy Clients</p>
+          </div>
+
+          <div class="card-text colorgris">
+            <h1>50+</h1>
+            <p>Professional Member</p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <!-- FIN SECCION - PROYECTOS -->
+
+    <!-- SECCION - PASOS -->
+
+    <section class="pasos">
+      <div class="cards-steps ancho">
+        <div class="card-step wow animate__animated animate__fadeInRight">
+          <h1>STEP 01</h1>
+          <div class="card-position">
+            <i class="fa-solid fa-chart-simple"></i>
+            <p>Business Strategy</p>
+          </div>
+        </div>
+        <div class="card-step wow animate__animated animate__fadeInRight">
+          <h1>STEP 02</h1>
+          <div class="card-position">
+            <i class="fa-solid fa-globe"></i>
+            <p>International Busines</p>
+          </div>
+        </div>
+        <div class="card-step wow animate__animated animate__fadeInRight">
+          <h1>STEP 03</h1>
+          <div class="card-position">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <p>Financial Planning</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION - SERVICIOS -->
+
+    <article class="art-encabezado ancho">
+      <h1>THE SERVICES YOU NEED TO SUCCEED</h1>
+      <p>
+        Discover how our clients found their dream homes and successful real
+        <br />
+        estate investments with the help of our expert agents.
+      </p>
+    </article>
+
+    <section class="servicios ancho">
+      <div class="cards-services">
+        <article class="card-serv wow animate__animated animate__fadeInLeft">
+          <i class="fa-regular fa-comment-dots"></i>
+          <h1>Business Consulting</h1>
+          <p>
+            Discover how our clients found their dream homes and successful real
+            estate investments with the help of our expert agents.
+          </p>
+        </article>
+        <article class="card-serv wow animate__animated animate__fadeInUp">
+          <i class="fa-solid fa-users"></i>
+          <h1>Business Consulting</h1>
+          <p>
+            Discover how our clients found their dream homes and successful real
+            estate investments with the help of our expert agents.
+          </p>
+        </article>
+      </div>
+      <div class="cards-services">
+        <article class="card-serv wow animate__animated animate__fadeInUp">
+          <i class="fa-solid fa-star"></i>
+          <h1>Business Consulting</h1>
+          <p>
+            Discover how our clients found their dream homes and successful real
+            estate investments with the help of our expert agents.
+          </p>
+        </article>
+        <article class="card-serv wow animate__animated animate__fadeInRight">
+          <i class="fa-solid fa-gear"></i>
+          <h1>Business Consulting</h1>
+          <p>
+            Discover how our clients found their dream homes and successful real
+            estate investments with the help of our expert agents.
+          </p>
+        </article>
+      </div>
+    </section>
+    <div class="btn ancho">
+      <a href="#">View All Service</a>
+    </div>
+
+    <section class="negocio">
+      <article class="art-encabezado ancho">
+        <h1>Our Business Success Showcase</h1>
+        <p>
+          Our Business Success Showcase highlights our most successful projects,
+          partnerships, and achievements.
+        </p>
+      </article>
+
+      <article class="art-gallery">
+        <a
+          href="imagenes/galeria1.png"
+          data-fancybox="gallery"
+          data-caption="Caption #1"
+        >
+          <figure>
+            <img src="imagenes/galeria1.png" alt="" />
+            <div class="galery-position">
+              <p>Profitability And Stability</p>
+            </div>
+          </figure>
+        </a>
+
+        <a
+          href="imagenes/galeria2.png"
+          data-fancybox="gallery"
+          data-caption="Caption #1"
+        >
+          <figure>
+            <img src="imagenes/galeria2.png" alt="" />
+            <div class="galery-position">
+              <p>Collaboration And Success</p>
+            </div>
+          </figure>
+        </a>
+
+        <a
+          href="imagenes/galeria3.png"
+          data-fancybox="gallery"
+          data-caption="Caption #1"
+        >
+          <figure>
+            <img src="imagenes/galeria3.png" alt="" />
+            <div class="galery-position">
+              <p>Efficiency And Productivity</p>
+            </div>
+          </figure>
+        </a>
+
+        <a
+          href="imagenes/galeria4.png"
+          data-fancybox="gallery"
+          data-caption="Caption #1"
+        >
+          <figure>
+            <img src="imagenes/galeria4.png" alt="" />
+            <div class="galery-position">
+              <p>Innovation And Leadership</p>
+            </div>
+          </figure>
+        </a>
+
+        <a
+          href="imagenes/galeria5.png"
+          data-fancybox="gallery"
+          data-caption="Caption #1"
+        >
+          <figure>
+            <img src="imagenes/galeria5.png" alt="" />
+            <div class="galery-position">
+              <p>Achievement And Progress</p>
+            </div>
+          </figure>
+        </a>
+
+        <a
+          href="imagenes/galeria6.png"
+          data-fancybox="gallery"
+          data-caption="Caption #1"
+        >
+          <figure>
+            <img src="imagenes/galeria6.png" alt="" />
+            <div class="galery-position">
+              <p>Trust And Partnership</p>
+            </div>
+          </figure>
+        </a>
+      </article>
+    </section>
+
+    <!-- SECCION - PARALAX -->
+    <section class="paralax-img">
+      <article class="art-paralax ancho">
+        <h1>Praise from Our Corporate Partners</h1>
+        <p>
+          Read what our corporate partners have to say about their experience
+          working with us. From startups to Fortune 500 companies,
+        </p>
+      </article>
+      <div class="poligon"></div>
+    </section>
+
+    <!-- SECCTION - ACORDEON -->
+    <section class="acordeon">
+      <article class="art-encabezado ancho">
+        <h1>Praise from Our Corporate Partners</h1>
+        <p>
+          Read what our corporate partners have to say about their experience
+          working with us. From startups to Fortune 500 companies,
+        </p>
+      </article>
+      <article class="art-acordeon ancho">
+        <div class="acordeon_titulo">
+          <h3>Richard Johnson</h3>
+          <i class="fa-solid fa-plus"></i>
+          <figure>
+            <img src="imagenes/position-noti1.png" alt="" />
+          </figure>
+        </div>
+        <div class="acordeon-contenido">
+          <p>
+            "We've been extremely impressed with the level of expertise and
+            professionalism displayed by this company. They have helped us
+            optimize and increase our profitability."
+          </p>
+        </div>
+        <div class="acordeon_titulo">
+          <h3>Susan Hernandez</h3>
+          <i class="fa-solid fa-plus"></i>
+          <figure>
+            <img src="imagenes/position-noti2.png" alt="" />
+          </figure>
+        </div>
+        <div class="acordeon-contenido">
+          <p>
+            "This company truly understands the needs of businesses in today's
+            fast-paced environment. Their team is responsive, and always willing
+            to go the extra mile to ensure our success."
+          </p>
+        </div>
+        <div class="acordeon_titulo">
+          <h3>Richard Johnson</h3>
+          <i class="fa-solid fa-plus"></i>
+          <figure>
+            <img src="imagenes/position-noti3.png" alt="" />
+          </figure>
+        </div>
+        <div class="acordeon-contenido">
+          <p>
+            "We are extremely pleased with the service and support provided by
+            this company. Their team is responsive, professional, and always
+            goes to ensure our satisfaction."
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- SECTION - CARRUSEL -->
+    <article class="art-encabezado ancho">
+      <h1>Professional Business Services Team</h1>
+      <p>
+        Our Business Success Showcase highlights our most successful projects,
+        partnerships, and achievements.
+      </p>
+    </article>
+
+    <section class="carrusel" id="carousel">
+      <article id="slide-container">
+        <div class="slide content-slide" data-slideIndex="0">
+          <figure>
+            <img src="imagenes/m-1.png" alt="" />
+            <div class="slide-position">
+              <p>Richard Johnson</p>
+            </div>
+          </figure>
+          <div class="RH">
+            <div class="rhtext">
+              <h1>HR</h1>
+            </div>
+            <div class="rhredes">
+              <br />
+              <i class="fa-brands fa-behance"></i>
+              <i class="fa-solid fa-basketball"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide content-slide" data-slideIndex="1">
+          <figure>
+            <img src="imagenes/m-2.png" alt="" />
+            <div class="slide-position">
+              <p>Rebecca Robinson</p>
+            </div>
+          </figure>
+          <div class="RH">
+            <div class="rhtext">
+              <h1>HR</h1>
+            </div>
+            <div class="rhredes">
+              <br />
+              <i class="fa-brands fa-behance"></i>
+              <i class="fa-solid fa-basketball"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide content-slide" data-slideIndex="1">
+          <figure>
+            <img src="imagenes/m-3.png" alt="" />
+            <div class="slide-position">
+              <p>William Martinez</p>
+            </div>
+          </figure>
+          <div class="RH">
+            <div class="rhtext">
+              <h1>HR</h1>
+            </div>
+            <div class="rhredes">
+              <br />
+              <i class="fa-brands fa-behance"></i>
+              <i class="fa-solid fa-basketball"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="slide content-slide" data-slideIndex="1">
+          <figure>
+            <img src="imagenes/m-1.png" alt="" />
+            <div class="slide-position">
+              <p>Richard Johnson</p>
+            </div>
+          </figure>
+          <div class="RH">
+            <div class="rhtext">
+              <h1>HR</h1>
+            </div>
+            <div class="rhredes">
+              <br />
+              <i class="fa-brands fa-behance"></i>
+              <i class="fa-solid fa-basketball"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook-f"></i>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="slide-buttons">
+        <a class="arrow back" id="back-button"
+          ><i class="fa-solid fa-arrow-left"></i
+        ></a>
+
+        <a class="arrow forward" id="forward-button"
+          ><i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </article>
+      <article class="slide-indicators">
+        <a class="slide-indicator active"></a>
+        <a class="slide-indicator"></a>
+        <a class="slide-indicator"></a>
+        <a class="slide-indicator"></a>
+      </article>
+    </section>
+
+    <!-- SECCION - NOTICIAS -->
+    <section class="sec-noticias">
+      <article class="art-encabezado ancho">
+        <h1>Professional Business Services Team</h1>
+        <p>
+          Our Business Success Showcase highlights our most successful projects,
+          partnerships, and achievements.
+        </p>
+      </article>
+      <article class="art-noti-cards ancho">
+        <div class="card-noti">
+          <figure class="figure-relative">
+            <img class="img-relative" src="imagenes/img-noti1.png" alt="" />
+            <figure class="figure-position">
+              <img
+                class="img-position"
+                src="imagenes/position-noti1.png"
+                alt=""
+              />
+            </figure>
+          </figure>
+          <div class="noti-text">
+            <p>Business Consultancy</p>
+            <h3>The Power of Networking for Business Success</h3>
+            <div class="pie-noti">
+              <div class="fecha">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>April 12, 2023</p>
+              </div>
+              <div class="coment">
+                <i class="fa-solid fa-message"></i>
+                <p>15</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-noti">
+          <figure class="figure-relative">
+            <img class="img-relative" src="imagenes/img-noti2.png" alt="" />
+            <figure class="figure-position">
+              <img
+                class="img-position"
+                src="imagenes/position-noti2.png"
+                alt=""
+              />
+            </figure>
+          </figure>
+          <div class="noti-text">
+            <p>Business Consultancy</p>
+            <h3>Maximizing Team Performance: Tips for Success</h3>
+            <div class="pie-noti">
+              <div class="fecha">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>April 12, 2023</p>
+              </div>
+              <div class="coment">
+                <i class="fa-solid fa-message"></i>
+                <p>15</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-noti">
+          <figure class="figure-relative">
+            <img class="img-relative" src="imagenes/img-noti3.png" alt="" />
+            <figure class="figure-position">
+              <img
+                class="img-position"
+                src="imagenes/position-noti3.png"
+                alt=""
+              />
+            </figure>
+          </figure>
+          <div class="noti-text">
+            <p>Business Consultancy</p>
+            <h3>Staying Ahead of the Curve: Innovating in Business</h3>
+            <div class="pie-noti">
+              <div class="fecha">
+                <i class="fa-solid fa-calendar-days"></i>
+                <p>April 12, 2023</p>
+              </div>
+              <div class="coment">
+                <i class="fa-solid fa-message"></i>
+                <p>15</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="btn_upper" id="back-to-top">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+    </section>
+
+    <!-- PIE DE PAGINA - FOOTER -->
+
+    <footer class="ancho">
+      <div class="logo-footer">
+        <figure><img src="imagenes/logo.png" alt="" /></figure>
+      </div>
+      <article class="footer-cont">
+        <div class="footer-cont1">
+          <h1>LET'S WORK TOGETHER</h1>
+          <p>
+            Stay up-to-date with the latest news and trends in the business
+            world through our insightful articles and analysis.
+          </p>
+          <h2>FOLLOW US</h2>
+          <div class="footer-redes">
+            <i class="fa-brands fa-behance"></i>
+            <i class="fa-solid fa-basketball"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+        </div>
+        <div class="footer-cont2">
+          <h2>LOCATION</h2>
+          <h3>Address:</h3>
+          <p>123 Street, Your City, State and Country.</p>
+          <h3>Call:</h3>
+          <span>+1 123 456 789</span>
+          <h3>Email:</h3>
+          <p>inf0@homelyexample.com</p>
+        </div>
+        <div class="footer-cont3">
+          <h2>Subscribe Our Newsletter</h2>
+          <p>You Will get weekly update on Email</p>
+          <div class="correo">
+            <div class="mail">
+              <p>Your mail</p>
+            </div>
+            <i class="fa-solid fa-paper-plane"></i>
+          </div>
+        </div>
+      </article>
+    </footer>
+    <!-- SCRIPTS -->
+    <script>
+      // VALIDACION FORMULARIO
+      document
+        .getElementById("forms_modal")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const name = document.getElementById("name").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const message = document.getElementById("message").value.trim();
+
+          // Verificar si algún campo está vacío
+          if (!name || !email || !message) {
+            alert("Todos los campos son obligatorios.");
+            return; // Detener ejecución si falta algún campo
+          }
+
+          // Si pasa todas las validaciones
+          alert("Formulario enviado correctamente!");
+        });
+      // SCRIPT ANIMACIONES
+      new WOW({
+        boxClass: "wow", // Clase para animar
+        animateClass: "animate__animated", // Clase de animación de animate.css
+        offset: 0, // Distancia del viewport
+        mobile: true, // Activa animaciones en dispositivos móviles
+        live: true, // Detecta cambios en el DOM
+      }).init();
+
+      // SCRIPT MENU DINAMICO
+      $("#icon-bar").click(function () {
+        $("#box-menu").slideToggle();
+      });
+
+      //   $(function () {
+      //     $(".rslides").responsiveSlides();
+      //   });
+
+      //SCRIPT SLIDE-BTN
+      $("#slider").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $(".events").append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $(".events").append("<li>after event fired.</li>");
+        },
+      });
+
+      // SCRIPTS MODAL
+      $("#btn_modal").click(function () {
+        $("#cont_modal").addClass("mostrar");
+      });
+      // CERRAR
+
+      // Cerrar con el botón de cierre
+      $("#cerrar_modal").click(function (event) {
+        event.preventDefault();
+        $("#cont_modal").removeClass("mostrar");
+      });
+
+      // Cerrar al hacer clic fuera del contenido del modal
+      window.onclick = function (event) {
+        if (event.target === document.getElementById("cont_modal")) {
+          $("#cont_modal").removeClass("mostrar");
+        }
+      };
+
+      // Cerrar con la tecla ESC
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape") {
+          $("#cont_modal").removeClass("mostrar");
+        }
+      });
+
+      // PESTAÑAS
+
+      $(".tab_content").hide(); //oculta todo el contenido
+      $(".tab_select li:first").addClass("active").show();
+      $(".tab_content:first").show();
+
+      /* ------------------------------------- */
+
+      $("ul.tab_select li").click(function () {
+        $(".tab_select li").removeClass("active");
+        $(this).addClass("active");
+        $(".tab_content").hide();
+
+        var activeTab = $(this).find("a").attr("href");
+        $(activeTab).fadeIn();
+        return false;
+      });
+
+      //GALERIA
+      Fancybox.bind('[data-fancybox="gallery"]', {});
+
+      // BACK
+      $("#back-to-top").click(function () {
+        $("body,html").animate({ scrollTop: 0 }, 500);
+        return false;
+      });
+
+      //ACORDEON
+      $(".acordeon_titulo").click(function(){
+            var t = $(this);
+            var tp = t.next();
+            tp.slideToggle();
+        });
+    </script>
+    <script src="libreriajs/carrousel.js"></script>
+  </body>
+</html>
